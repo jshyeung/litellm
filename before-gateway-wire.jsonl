@@ -1,0 +1,6 @@
+{"method": "GET", "path": "/favicon.ico", "status": 404}
+{"method": "GET", "path": "/favicon.ico", "status": 404}
+{"method": "GET", "path": "/claude_code_gateway/managed/settings", "status": 404}
+{"method": "GET", "path": "/claude_code_gateway/managed/settings", "status": 404}
+{"method": "GET", "path": "/claude_code_gateway/v1/models?limit=1000", "status": 404, "body": {"detail": "Not Found"}}
+{"method": "GET", "path": "/claude_code_gateway/v1/models?limit=1000", "status": 404, "body": {"detail": "Not Found"}}

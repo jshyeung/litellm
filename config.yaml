@@ -1,0 +1,28 @@
+model_list:
+  - model_name: claude-gateway-demo
+    litellm_params:
+      model: anthropic/claude-gateway-demo
+      api_base: http://127.0.0.1:4010
+      api_key: local-mock-provider
+      input_cost_per_token: 0
+      output_cost_per_token: 0
+    model_info:
+      display_name: Gateway Demo
+      max_input_tokens: 200000
+      max_output_tokens: 4096
+  - model_name: claude-gateway-second
+    litellm_params:
+      model: anthropic/claude-gateway-demo
+      api_base: http://127.0.0.1:4010
+      api_key: local-mock-provider
+      input_cost_per_token: 0
+      output_cost_per_token: 0
+    model_info:
+      display_name: Gateway Second
+      max_input_tokens: 200000
+      max_output_tokens: 4096
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  enable_claude_code_gateway: true
+litellm_settings:
+  drop_params: true

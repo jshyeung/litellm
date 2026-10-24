@@ -1,0 +1,2 @@
+{"method": "POST", "path": "/v1/messages", "model": "claude-gateway-demo", "stream": true, "message_count": 2}
+{"method": "POST", "path": "/v1/messages", "model": "claude-gateway-demo", "stream": true, "message_count": 1}
